@@ -2,3 +2,40 @@
 
 * {margin:0; padding:0;
   }
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+
+@font-face {
+  font-family: Antonio;
+  src: url(../fonts/Antonio-VariableFont_wght.ttf);
+}
+
+body {
+  background-color:#181818;
+  font-family: 'Antonio', sans-serif;
+  letter-spacing: 0.05em;
+  color:#e7e7e7;
+  text-transform: lowercase;
+  }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  }
+
+.navbar {
+  padding: 3em;
+
+}
+
+
+
+.navbar li {
+  display:inline;
+  padding:1em;
+}
+
+h1{
+padding: 2em;
+
+}
