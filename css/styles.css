@@ -24,11 +24,8 @@ a {
   }
 
 .navbar {
-  padding: 3em;
-
+  padding: 2em;
 }
-
-
 
 .navbar li {
   display:inline;
@@ -36,6 +33,9 @@ a {
 }
 
 h1{
-padding: 2em;
+padding: 1.5em;
+}
 
+p{
+  padding:3em;
 }
