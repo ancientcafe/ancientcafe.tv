@@ -3,16 +3,16 @@
 * {margin:0; padding:0;
   }
 
-@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
 
 @font-face {
-  font-family: Antonio;
-  src: url(../fonts/Antonio-VariableFont_wght.ttf);
+  font-family: typo-round;
+  src: url(../fonts/typo-round/Typo_Round_Bold_Demo.otf);
 }
 
 body {
-  background-color:#181818;
-  font-family: 'Antonio', sans-serif;
+  background-image: url("../img/webbackgroundsmall.svg");
+  background-size: 200px;
+  font-family: 'typo-round', sans-serif;
   letter-spacing: 0.05em;
   color:#e7e7e7;
   text-transform: lowercase;
@@ -21,21 +21,57 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.3s;
+  transition: letter-spacing 0.3s;
   }
 
 .navbar {
-  padding: 2em;
+  padding-top: 1em;
+  padding-bottom: 4em;
+  text-align: center;
 }
+
 
 .navbar li {
-  display:inline;
-  padding:1em;
+  display: inline;
+  list-style-type:none;
+  font-size: 3em;
+  padding: 1em;
+
+
 }
 
+
 h1{
-padding: 1.5em;
+  color:#FFB0A1;
+  line-height: 1.5em;
+  font-size: 3em;
+  padding: 0 1em 0.75em 1em;
 }
 
 p{
-  padding:3em;
+  color:#A1E7FF;
+  line-height: 1.5em;
+  font-size: 1.5em;
+  padding: 0 2em 1em 2em;
+
 }
+
+#brand {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: perspective(10px);
+  transition: transform 1s;
+
+}
+
+#brand:hover{
+  transform: rotatex(2deg) scale(0.8);
+
+}
+
+a.twitch:hover {color:#6441a5;letter-spacing: 0.2em;}
+a.music:hover {color:#FFB0A1;letter-spacing: 0.2em;}
+a.connect:hover {color:#A1E7FF;letter-spacing: 0.2em;}
