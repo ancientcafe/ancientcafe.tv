@@ -57,6 +57,17 @@ p{
 
 }
 
+.logo{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+
+
 #brand {
   width: 100%;
   display: block;
@@ -68,10 +79,30 @@ p{
 }
 
 #brand:hover{
-  transform: rotatex(2deg) scale(0.8);
+  transform: rotatex(-2deg) scale(0.8);
 
 }
+
+#icon{
+  display:inline-block;
+  width: 1em;
+  transform: perspective(10px);
+  transition: transform 0.4s;
+}
+
+#icon:hover{
+  transform: rotatex(-20deg)scale(1.4);
+}
+
 
 a.twitch:hover {color:#6441a5;letter-spacing: 0.2em;}
 a.music:hover {color:#FFB0A1;letter-spacing: 0.2em;}
 a.connect:hover {color:#A1E7FF;letter-spacing: 0.2em;}
+
+
+
+
+.content{
+  background-color: rgba(0, 0, 0, 0.3);
+height: 100vh;
+}
