@@ -18,6 +18,10 @@ body {
   text-transform: lowercase;
   }
 
+  body, html{
+    width:100%;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -35,6 +39,7 @@ a {
   display: inline;
   list-style-type:none;
   font-size: 3em;
+  line-height: 2em;
 
 
 }
@@ -115,5 +120,5 @@ a.connect:hover {color:#A1E7FF;letter-spacing: 0.2em;}
 
 .content{
   background-color: rgba(0, 0, 0, 0.3);
-height: 100vh;
+  height: 100vh;
 }
