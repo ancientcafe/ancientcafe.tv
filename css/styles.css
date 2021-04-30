@@ -26,9 +26,8 @@ a {
   }
 
 .navbar {
-  padding-top: 1em;
-  padding-bottom: 4em;
   text-align: center;
+  padding:3em 0 3em 0;
 }
 
 
@@ -36,10 +35,22 @@ a {
   display: inline;
   list-style-type:none;
   font-size: 3em;
-  padding: 1em;
 
 
 }
+
+.navbar li {
+padding: 0 1em 0 1em;
+
+}
+
+@media only screen and (max-width: 905px) {
+  .navbar li{display:block;}
+
+}
+
+
+
 
 
 h1{
@@ -86,12 +97,12 @@ p{
 #icon{
   display:inline-block;
   width: 1em;
-  transform: perspective(10px);
+  transform: perspective(10px)scale(1.2);
   transition: transform 0.4s;
 }
 
 #icon:hover{
-  transform: rotatex(-20deg)scale(1.4);
+  transform: rotatex(-20deg)scale(1.7);
 }
 
 
