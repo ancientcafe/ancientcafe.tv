@@ -120,5 +120,5 @@ a.connect:hover {color:#A1E7FF;letter-spacing: 0.2em;}
 
 .content{
   background-color: rgba(0, 0, 0, 0.3);
-  height: 100vh;
+  min-height: 100vh;
 }
