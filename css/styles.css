@@ -12,6 +12,7 @@
 body {
   background-image: url("../img/webbackgroundsmall.svg");
   background-size: 200px;
+  background-attachment: fixed;
   font-family: 'typo-round', sans-serif;
   letter-spacing: 0.05em;
   color:#e7e7e7;
